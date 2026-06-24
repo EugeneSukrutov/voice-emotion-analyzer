@@ -1,0 +1,35 @@
+# Окружения
+env/
+venv/
+.conda/
+
+# Кэш Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Данные и модели (большие файлы)
+data/
+models/
+*.pkl
+*.npz
+
+# Пользовательские загрузки и результаты
+uploads/
+results/
+history.db
+
+# Сгенерированные тестовые аудио
+test_audio/
+test_audio_many/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Системные файлы
+.DS_Store
+Thumbs.db
